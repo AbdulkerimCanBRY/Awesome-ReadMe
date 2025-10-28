@@ -43,13 +43,13 @@ Bir katlanabilir bölüm oluşturmak için iki HTML etiketi kullanılır:
 
 ### Sonuç:
 
-\<details\>
-\<summary\>Buraya tıklayarak detayları görebilirsiniz.\</summary\>
+<details>
+<summary>Buraya tıklayarak detayları görebilirsiniz.</summary>
 
 Bu bölüm, varsayılan olarak gizlidir. Başlığa tıklandığında görünür hale gelir.
 Buraya istediğiniz kadar metin veya başka içerikler ekleyebilirsiniz.
 
-\</details\>
+</details>
 
 -----
 
@@ -81,29 +81,29 @@ Daha karmaşık ve hiyerarşik yapılar oluşturmak için `<details>` etiketleri
 
 ### Sonuç:
 
-\<details\>
-\<summary\>Ana Konu\</summary\>
+<details>
+<summary>Ana Konu</summary>
 
 Bu ana konunun açıklamasıdır.
 
-\<details\>
-\<summary\>Alt Konu 1\</summary\>
+<details>
+<summary>Alt Konu 1</summary>
 
 ```
 Bu da alt konunun detaylarıdır.
 ```
 
-\</details\>
+</details>
 
-\<details\>
-\<summary\>Alt Konu 2\</summary\>
+<details>
+<summary>Alt Konu 2</summary>
 
 ```
 Bu da ikinci alt konunun detaylarıdır.
 ```
 
-\</details\>
-\</details\>
+</details>
+</details>
 
 -----
 
@@ -175,4 +175,5 @@ Daha fazla bilgi için `INSTALL.md` dosyasına bakabilirsiniz.
 
   - **Boşluk Kuralı:** Markdown'ın doğru çalışması için `<summary>` ve `</details>` etiketlerinden sonra/önce boş bir satır bırakmayı unutmayın.
   - **Açıklayıcı Başlıklar:** `<summary>` metni, gizli içeriğin ne hakkında olduğunu net bir şekilde açıklamalıdır. "Detaylar" gibi genel bir ifade yerine "Yapılandırma Dosyası Örneğini Görüntüle" gibi daha spesifik bir başlık kullanın.
+
   - **Kritik Bilgileri Gizlemeyin:** Projenin kurulumu veya temel kullanımı için hayati önem taşıyan bilgileri varsayılan olarak gizlemekten kaçının. Bu özellik, ikincil veya isteğe bağlı bilgiler için daha uygundur.
